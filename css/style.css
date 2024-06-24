@@ -29,7 +29,7 @@ section {
 .splash {
   height: 100vh;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.pexels.com/photos/9254635/pexels-photo-9254635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -75,4 +75,18 @@ section {
   color: #fff;
   font-size: 18px;
   margin: 48px 0 0 0;
+}
+
+/* Intro */
+.intro {
+  background-color: light;
+}
+
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px 0;
+  font-size: 24px;
+  border-top: 1px solid #3d3d3d;
+  border-bottom: 1px solid #3d3d3d;
 }
